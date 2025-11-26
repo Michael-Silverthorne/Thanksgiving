@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>German Cars</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="vehicle.js"></script>
+</head>
+
+<body>
+
+    <header>
+    <h1>German Performance Cars</h1>
+    </header>
+
+    <button onclick="filterCars('all')">All</button>
+    <button onclick="filterCars('BMW')">BMW</button>
+    <button onclick="filterCars('Audi')">Audi</button>
+    <button onclick="filterCars('Porsche')">Porsche</button>
+    <button onclick="filterCars('Mercedes')">Mercedes</button>
+
+    <div id="carWrapper" class="carWrapper"></div>
+    
+    <footer>
+        Michael Silverthorne
+    </footer>
+
+</body>
+
+</html>
